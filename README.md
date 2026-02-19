@@ -79,6 +79,7 @@ STRIPE_SECRET_KEY=sk_test_your_key_here
 STRIPE_PUBLISHABLE_KEY=pk_test_your_key_here
 ```
 
+
 5. **Run Development Servers**
 ```bash
 # Terminal 1 - Backend
@@ -93,26 +94,6 @@ npm run dev
 6. **Open Browser**
 Navigate to `http://localhost:5173`
 
-## 📁 Project Structure
-
-```
-supermarket-3d/
-├── backend/           # Node.js + Express API
-│   ├── config/       # Database & payment configs
-│   ├── controllers/  # Route handlers
-│   ├── middleware/   # Auth & error handling
-│   ├── models/       # MongoDB schemas
-│   ├── routes/       # API endpoints
-│   └── utils/        # Helper functions
-├── frontend/         # Vite + Three.js app
-│   ├── src/
-│   │   ├── components/   # UI & 3D components
-│   │   ├── core/        # Engine (Physics, Render, Camera)
-│   │   ├── utils/       # API & storage helpers
-│   │   └── assets/      # Models, textures, sounds
-│   └── index.html
-└── README.md
-```
 
 ## 🏗️ Architecture
 
