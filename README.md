@@ -1,10 +1,4 @@
-
-import os
-
-current_dir = "/mnt/kimi/output"
-
-# 1. Root README.md
-readme_content = """# 🛒 Supermarket 3D
+# 3D Supermarket
 
 An immersive 3D supermarket shopping experience inspired by [Bruno Simon's](https://bruno-simon.com) interactive portfolio. Features physics-based shopping cart mechanics, realistic product interaction, and secure M-Pesa/Card payment integration.
 
