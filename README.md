@@ -79,6 +79,7 @@ STRIPE_SECRET_KEY=sk_test_your_key_here
 STRIPE_PUBLISHABLE_KEY=pk_test_your_key_here
 ```
 
+
 5. **Run Development Servers**
 ```bash
 # Terminal 1 - Backend
